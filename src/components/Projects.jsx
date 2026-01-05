@@ -7,41 +7,32 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Webhook Processing System',
-      description: 'Scalable webhook handler with retry logic, queue management, and dynamic notification system. Built for high-volume webhook processing with error handling and monitoring.',
+      title: 'Blog app (backend)',
+      description: 'A secure and scalable backend for a blog platform that handles user authentication, post creation, and data management using RESTful APIs. Built with Node.js, Express, and MongoDB, it supports JWT-based auth, input validation, and efficient CRUD operations.',
       tech: 'Node.js + Express + MongoDB',
-      tags: ['Backend', 'API', 'Webhooks'],
-      github: '#',
+      tags: ['Backend', 'API', 'Jwt','Validators'],
+      github: 'https://github.com/AmanRathore-1/blog_Login.git',
       demo: '#',
       icon: '🔔'
     },
     {
-      title: 'Auth & User Service',
-      description: 'Complete JWT authentication system with OTP verification, refresh token rotation, and secure session management. Includes role-based access control.',
+      title: 'personal_ai_chatbot',
+      description: 'A lightweight AI-powered chatbot backend that handles user queries, manages conversations, and integrates secure APIs for intelligent responses. Designed for scalability, clean architecture, and easy integration into web or chat platforms.',
       tech: 'Node.js + JWT + MongoDB',
-      tags: ['Security', 'Auth', 'Backend'],
-      github: '#',
+      tags: ['GroqApi', 'MongoDb', 'FullStack'],
+      github: 'https://github.com/AmanRathore-1/personal_ai_chatbot.git',
       demo: '#',
       icon: '🔐'
     },
     {
-      title: 'Real-time Chat Application',
-      description: 'Real-time messaging platform with Socket.IO, featuring private rooms, file sharing, and message history. Optimized for low latency communication.',
-      tech: 'Node.js + Socket.IO + Redis',
-      tags: ['Real-time', 'WebSocket', 'Chat'],
-      github: '#',
+      title: ' Python_Discord_bot',
+      description: 'A feature-rich Discord bot built with Python that automates moderation, sends welcome messages, and supports custom commands using an event-driven architecture. Designed for reliability, secure configuration, and real-time server interaction.',
+      tech: 'Node.js + Discord.js',
+      tags: ['Real-time', 'Discord.js', 'Chat','Python'],
+      github: 'https://github.com/AmanRathore-1/Python_Discord_bot.git',
       demo: '#',
       icon: '💬'
     },
-    // {
-    //   title: 'E-commerce REST API',
-    //   description: 'Comprehensive REST API for e-commerce platform with payment integration, inventory management, and order tracking. Built with scalability in mind.',
-    //   tech: 'Node.js + Express + PostgreSQL',
-    //   tags: ['API', 'E-commerce', 'Backend'],
-    //   github: '#',
-    //   demo: '#',
-    //   icon: '🛒'
-    // }
   ]
 
   return (
