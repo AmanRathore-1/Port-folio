@@ -22,4 +22,11 @@ npm install
 npm run dev
 
 
+# Aman Rathore — Portfolio
+
+<p align="center">
+  <img src="assets/preview.png" alt="Portfolio Preview" width="900" />
+</p>
+
+Personal portfolio website showcasing my work as a **Backend Developer**.
 
