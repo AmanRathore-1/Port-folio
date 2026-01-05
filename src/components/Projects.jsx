@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react'
+import { Github } from 'lucide-react'
 import { useState } from 'react'
 import './Projects.css'
 
@@ -12,7 +12,6 @@ const Projects = () => {
       tech: 'Node.js + Express + MongoDB',
       tags: ['Backend', 'API', 'Jwt','Validators'],
       github: 'https://github.com/AmanRathore-1/blog_Login.git',
-      demo: '#',
       icon: '🔔'
     },
     {
@@ -30,7 +29,6 @@ const Projects = () => {
       tech: 'Node.js + Discord.js',
       tags: ['Real-time', 'Discord.js', 'Chat','Python'],
       github: 'https://github.com/AmanRathore-1/Python_Discord_bot.git',
-      demo: '#',
       icon: '💬'
     },
   ]
@@ -82,10 +80,6 @@ const Projects = () => {
                     <Github size={16} />
                     GitHub
                   </a>
-                  <a href={project.demo} className="project-link demo-link">
-                    <ExternalLink size={16} />
-                    Live Demo
-                  </a>
                 </div>
 
                 {hoveredIndex === index && (
@@ -95,15 +89,6 @@ const Projects = () => {
             </div>
           ))}
         </div>
-
-        {/* <div className="view-all-section">
-          <p className="view-all-text">Want to see more?</p>
-          <a href="https://github.com/yourusername" className="view-all-btn">
-            <Github size={20} />
-            View All Projects on GitHub
-            <ExternalLink size={16} />
-          </a>
-        </div> */}
       </div>
     </section>
   )
