@@ -3,22 +3,22 @@ import './About.css'
 const About = () => {
   // Tech stack data with SVG/Image icons matching the reference
   const languages = [
-    { name: 'C', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg' },
-    { name: 'C++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
-    { name: 'HTML/CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
-    { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-    { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
-    { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' }
+    { name: 'C', icon: './c-original.svg' },
+    { name: 'C++', icon: './cplusplus-original.svg' },
+    { name: 'HTML/CSS', icon: './html5-original.svg' },
+    { name: 'JavaScript', icon: './javascript-original.svg' },
+    { name: 'TypeScript', icon: './typescript-original.svg' },
+    { name: 'Python', icon: './python-original (1).svg' }
   ]
 
   const webDev = [
-    { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+    { name: 'React', icon: './react-original.svg' },
     { name: 'NextJs', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg' },
-    { name: 'Node', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
-    { name: 'Redux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' },
+    { name: 'Node', icon: './nodejs-original.svg' },
+    { name: 'Redux', icon: '/nodejs-original.svg' },
     // { name: 'Tailwind', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' },
-    { name: 'RestAPI', icon: 'https://cdn-icons-png.flaticon.com/512/2164/2164832.png' },
-    { name: 'ExpressJs', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg' },
+    { name: 'RestAPI', icon: './api.png' },
+    { name: 'ExpressJs', icon: '/express-original.svg' },
     { name: 'SocketIO', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg' },
     { name: 'MUI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg' },
     // { name: 'GSAP', icon: 'https://greensock.com/uploads/set_resources_2/e3470c97623c019d3db0652b8f8fdc7c_gsap-greensock-icon.svg' },
@@ -27,7 +27,8 @@ const About = () => {
 
   const databases = [
     { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
-    { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' }
+    { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
+    { name: 'PostgreSQL' , icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' }
   ]
 
   const tools = [
@@ -38,7 +39,6 @@ const About = () => {
     // { name: 'Cloudinary', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudinary/cloudinary-original.svg' },
     { name: 'Postman', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg' },
     { name: 'Cursor', icon: 'https://cursor.sh/brand/icon.svg' },
-    { name: 'Other', icon: 'https://cdn-icons-png.flaticon.com/512/1091/1091888.png' }
   ]
 
   return (
